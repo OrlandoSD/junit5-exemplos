@@ -9,9 +9,9 @@ import java.util.logging.Logger;
  *
  * <b>DISCLAIMER</b>: <i>Não é um exemplo real/atual desse cenário, serve apenas como exemplo para os testes com JUnit</i>
  */
-public class GerenciadorDeConexaoComBancoDeDados {
+public class BancoDeDados {
 
-    private static final Logger LOGGER = Logger.getLogger(GerenciadorDeConexaoComBancoDeDados.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(BancoDeDados.class.getName());
 
     public static void iniciarConexao() {
         //fez algo
